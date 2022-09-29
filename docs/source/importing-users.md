@@ -1,7 +1,7 @@
 # Importing Users
 
 >__INFO__
->This how-to document explains to administrators how to import users so they can build and manage the system’s user base.
+>This how-to document explains to client and super administrators how to import users so they can build and manage the system’s user base.
 
 ## Prerequisites
 You need administration permissions to log in to the admin panel.
