@@ -1,2 +1,2 @@
 #!/bin/bash
-scp -r -i my-docs-server-key.ppk /docs/source/ ec2-user@18.195.147.72:/docs/source
+scp -i ./my-docs-server-key.ppk /docs/source/ ec2-user@18.195.147.72:/docs/source
