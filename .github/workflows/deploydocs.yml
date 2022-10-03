@@ -20,4 +20,4 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
       - name: Run a copying script
-        run: copy-source.sh
+        run: ./copy-source.sh
