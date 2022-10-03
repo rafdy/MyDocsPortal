@@ -4,8 +4,9 @@ name: CI
 
 # Controls when the workflow will run
 on:
-  pull_request:
-    types: [closed]
+  push:
+    branches:
+      - main
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -14,7 +15,6 @@ on:
 jobs:
   # This workflow contains a single job called "build"
   copy-source:
-    if: github.event.pull_request.merged == 'true'
     runs-on: ubuntu-latest
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
